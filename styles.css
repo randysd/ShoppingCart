@@ -1,0 +1,194 @@
+
+header {
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    background: #68A;
+    z-index: 99;
+}
+
+header h1 {
+    font-family: arial;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    padding: 0;
+    margin: 10px;
+}
+
+header div.cartIcon {
+    padding: 0 10px 0 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+header div.cartIcon a {
+    cursor: pointer;
+}
+
+header div.cartIcon a span {
+    text-shadow: 0 0 20px rgba(255,255,255,1);
+}
+
+
+#ProductCatalog {
+    margin: 60px 10px;
+    border: solid 1px #000;
+}
+
+#ProductCatalog thead {
+    background-color: #ccc;
+}
+
+#ProductCatalog h4 {
+    margin: 0;
+}
+
+#ProductCatalog th.title {
+    padding: 5px;
+    width: 40%;
+}
+#ProductCatalog th.price {
+    width: 20%;
+}
+#ProductCatalog th.qty {
+    width: 50%;
+}
+
+#ProductCatalog tr td{
+    vertical-align: top;
+    padding: 5px;
+}
+
+#ProductCatalog input {
+    display: block;
+    width: 4em;
+    margin-bottom: 5px;
+}
+
+#ProductCatalog img {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+#ProductCatalog tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+#ProductCatalog tbody tr:last-child {
+    border-bottom: 0;
+}
+
+
+.glyphicon-shopping-cart {
+    font-size: 1.5em;
+}
+
+
+#cart {
+    background-color: #ed8;
+    padding: 0;
+    width: 250px;
+    border: solid 1px #000;
+    position:fixed;
+    right: 10px;
+    top: 40px;
+    z-index: 100;
+    box-shadow: -10px 5px 10px rgba(0,0,0,0.5);
+}
+
+#cart_title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: arial;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    background-color: #666;
+}
+
+#cart_container {
+    margin: 0;
+    padding: 10px;
+    width: 250px;
+}
+
+#cart_container table {
+    width: 100%;
+}
+
+#cart_container th.cart_name {
+    width: 40%;
+    text-align: left;
+}
+#cart_container th.cart_qty {
+    width: 20%;
+    text-align: right;
+}
+#cart_container th.cart_total {
+    width: 40%;
+    text-align: right;
+}
+#cart_container tbody tr {
+    border-bottom: solid 1px #cb6;
+}
+#cart_container tbody tr:first-child {
+    border-top: solid 2px #cb6;
+}
+#cart_container tbody tr:last-child {
+    border-bottom: solid 2px #cb6;
+}
+
+#cart_container tbody td {
+    text-align: right;
+    padding: 2px 0;
+}
+#cart_container tbody td:first-child {
+    text-align: left;
+    line-height: 1em;
+}
+#cart_container tr.empty td {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#cart tfoot tr.cart_subtotal {
+    border-top: solid 0px #cb6;
+}
+
+#cart tfoot td {
+    text-align: right;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#Catalog img {
+    width: 100px;
+    height: 100px;
+}
+
+#Catalog input {
+    width: 50px;
+}
+
+#Catalog button {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-family: arial;
+    font-size: 1em;
+}
+
+

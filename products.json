@@ -1,0 +1,65 @@
+[
+	{
+		"id": "game1",
+		"name": "Clank",
+		"description": "This is a brief description of Clank",
+		"price": 15.00,
+		"image": "clank.jpg"
+	},
+	{
+		"id": "game2",
+		"name": "Dominion",
+		"description": "This is a brief description of Dominion",
+		"price": 22.50,
+		"image": "dominion.jpg"
+	},
+		{
+		"id": "game3",
+		"name": "Eclipse",
+		"description": "This is a brief description of Eclipse",
+		"price": 75.00,
+		"image": "eclipse.jpg"
+	},
+	{
+		"id": "game4",
+		"name": "Formula D",
+		"description": "This is a brief description of Formula D",
+		"price": 45.00,
+		"image": "formulaD.jpg"
+	},
+	{
+		"id": "game5",
+		"name": "King of Tokyo",
+		"description": "This is a brief description of King of Tokyo",
+		"price": 29.95,
+		"image": "tokyo.jpg"
+	},
+	{
+		"id": "game6",
+		"name": "Lords of Waterdeep",
+		"description": "This is a brief description of Lords of Waterdeep",
+		"price": 32.00,
+		"image": "waterdeep.jpg"
+	},
+	{
+		"id": "game7",
+		"name": "Pandemic",
+		"description": "This is a brief description of Pandemic",
+		"price": 40.00,
+		"image": "pandemic.jpg"
+	},
+	{
+		"id": "game8",
+		"name": "Shadows Over Camelot",
+		"description": "This is a brief description of Shadows Over Camelot",
+		"price": 59.95,
+		"image": "shadows.jpg"
+	},
+	{
+		"id": "game9",
+		"name": "Settlers of Catan",
+		"description": "This is a brief description of Catan",
+		"price": 25.00,
+		"image": "catan.jpg"
+	}
+]

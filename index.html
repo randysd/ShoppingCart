@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Board Game Catalog</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- HEADER BAR -->
+<header>
+    <h1>Board Game Catalog</h1>
+    <div class="cartIcon"><a onclick="toggleCart()" title="Show/Hide Cart" ><span class="glyphicon glyphicon-shopping-cart"></span></a></div>
+</header>
+
+<!-- MAIN BODY SECTION -->
+<div id="ProductCatalog">
+    <table>
+        <thead>
+            <tr>
+                <th class="title">Board Game</th>
+                <th class="price">Price</th>
+                <th class="qty">Qty</th>
+            </tr>
+        </thead>
+        <tbody id="ProductCatalog_Content">
+        <tr>
+            <td colspan="3">
+                <div>
+                    Catalog is loading
+                </div>                
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- FOOTER BAR -->
+<footer>
+    <p>Board Game Catalog. Copyright <span class="glyphicon glyphicon-copyright-mark"></span> 2017.</p>
+</footer>
+
+
+<!-- SHOPPING CART SECTION -->
+<div id="cart">
+<div id="cart_title">SHOPPING CART</div>
+<div id="cart_container">
+    <table>
+        <thead id="cart_header">
+        <tr>
+            <th class="cart_name">Name</th>
+            <th class="cart_qty">Qty</th>
+            <th class="cart_total">Total</th>
+        </tr>
+        </thead>
+        <tbody id="cart_content"></tbody>
+        <tfoot id="cart_footer">
+        <tr class="cart_subtotal">
+            <td colspan="2">Total</td>
+            <td><div id="cart_subtotal"></div></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button class="btn btn-danger btn-sm" onclick="clearCart()">Clear Cart</button>
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
